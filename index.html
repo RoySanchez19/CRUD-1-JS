@@ -15,25 +15,31 @@
     <!-- CSS Personalizado -->
     <link rel="stylesheet" href="CSS/estilos.css">
 </head>
-
+<!-- DOM - Eventos del HTML - (Cargar,Tipiar,Click) -->
 <body>
+    
     <!-- Navegacion -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <a class="navbar-brand mx-auto" href="#">Aplicación de Productos</a>
     </nav>
 
     <div class="container">
-        <!-- APLICACIÓN -->
+        <!-- APLICACIÓN pt(padding-top)-->
         <div id="App" class="row pt-5">
 
-            <!-- FORMULARIO -->
+            <!-- FORMULARIO md-4(tamaño de cuadrilla-Bootstrap)-->
             <div class="col-md-4">
+                <!-- Insertando Card para que este en un espacio -->
                 <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+                    <!-- Colocando la Cabecera del Card -->
                     <div class="card-header">
                         <div class="color">Agregar un Producto</div>
                     </div>
+                    <!-- Colocando el Cuerpo del Card - Formulario -->
                     <form id="product-form" class="card-body">
+                        <!-- Separando el Input "form-group" -->
                         <div class="form-group">
+                            <!-- Insertando Input (step-decimal) -->
                             <input type="text" id="name" placeholder="Nombre del Producto" class="form-control">
                         </div>
                         <div class="form-group">
@@ -44,6 +50,7 @@
                             <input type="number" id="year" min="2000" max="2099" step="1" value="2020"
                                 class="form-control">
                         </div>
+                        <!-- Insertando Boton Guardar -->
                         <input type="submit" value="Guardar" class="btn btn-success">
                     </form>
                 </div>
