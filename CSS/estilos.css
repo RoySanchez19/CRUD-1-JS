@@ -1,0 +1,19 @@
+.success, .error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+
+.success {
+    background: green;
+}
+
+.error {
+    background: red;
+}
+.color, .form-control{
+    color: goldenrod;
+}
+nav.navbar>a{
+    font-size: 30px;
+}
